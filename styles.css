@@ -1,6 +1,76 @@
 html{
     font-family: serif;
-    background: rgb(253, 254, 246);
+    background: rgb(207, 172, 102);
     margin: 0;
 }
 
+body{
+    margin: 0;
+}
+
+.title-flexbox{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 199, 146);
+  width: 100%;
+
+}
+
+.flexbox-gird{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    gap: 10px;
+    min-height: 85vh;
+}
+
+.button{
+display:flex;
+left:10vw;
+text-align:center;
+background-color:yellow;
+padding:40px;
+font-size:30px;
+border-radius:5px;
+transition:all 1s;
+-webkit-transition:all 1s;
+min-height: 40vh;
+}
+
+.button:hover{
+  background-color:#00FFFF;
+  cursor:pointer;
+}
+
+.button:hover ~.popup
+{
+  margin: 50vw;
+  margin-top:500px;
+  opacity:1;
+}
+
+.popup{
+  position:fixed;
+  align-self: center;
+  margin-top:500px;
+  opacity:0;
+  transition:all 1s;
+  -webkit-transition:all 1s;
+}
+
+
+.popup div
+{
+  width:120px;
+  font-size:20px;
+}
+
+.popup div
+{
+  padding:50px;
+  background-color:black;
+  border-radius:40px;
+  color:white;
+  text-align:center;
+}
