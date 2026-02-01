@@ -80,9 +80,6 @@ body{
   height: 30vh;
 }
 
-
-
-
 .button{
   display:flex;
   left:10vw;
@@ -93,7 +90,14 @@ body{
   transition:all 1s;
   -webkit-transition:all 1s;
   height: 35vh;
-  width: 10vw;
+  width: 12vw;
+  overflow: hidden;
+}
+
+.button img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
   overflow: hidden;
 }
 
