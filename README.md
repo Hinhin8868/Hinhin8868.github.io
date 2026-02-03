@@ -10,4 +10,4 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 
-- https://codepen.io/bruskyer/pen/gvMEvJ - hover popup for the books
+- https://codepen.io/bruskyer/pen/gvMEvJ - Used to add the ~hover and transition for the buttons and popups.
