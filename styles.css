@@ -1,5 +1,7 @@
+
+
 html{
-    font-family: serif;
+    font-family: "SUSE Mono", sans-serif;
     background: rgb(243, 213, 181);
     margin: 0;
 }
@@ -14,7 +16,6 @@ body{
   align-items: center;
   background-color: rgb(164, 113, 72);
   width: 100%;
-
 }
 
 .flexbox-gird{
@@ -88,6 +89,8 @@ body{
   height: 35vh;
   width: 12vw;
   overflow: hidden;
+  animation: backInLeft;
+  animation-duration: 2s;
 }
 
 .button img{
@@ -100,6 +103,7 @@ body{
 
 .button:hover{
   filter: brightness(0.5);
+  opacity: 0.5;
   cursor:pointer;
 }
 
@@ -110,9 +114,39 @@ body{
 #button5:hover ~ #popup5,
 #button6:hover ~ #popup6,
 #button7:hover ~ #popup7 {
-  margin: 280px;
+  margin: 270px;
   opacity:1;
 }
+
+@media (max-width: 767px) {
+
+  .popup-flexbox-img{
+    width: 50vw;
+    height:25vh
+  }
+
+  .popup-flexbox{
+    font-size: small;
+    width: 30vw;
+  }
+
+  .button{
+    max-height: 150px;
+  }
+
+
+  #button1:hover ~ #popup1,
+  #button2:hover ~ #popup2,
+  #button3:hover ~ #popup3,
+  #button4:hover ~ #popup4,
+  #button5:hover ~ #popup5,
+  #button6:hover ~ #popup6,
+  #button7:hover ~ #popup7 {
+    margin: 200px;
+  }
+
+}
+
 
 
 
