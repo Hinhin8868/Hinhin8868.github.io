@@ -1,6 +1,6 @@
 # Hinhin8868.github.io
 
-My personal site.
+My Anime Recommendation List
 
 ---
 
